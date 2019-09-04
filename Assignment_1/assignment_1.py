@@ -3,6 +3,15 @@
 Created on Wed Sep  4 10:37:42 2019
 
 @author: gordon.garisch
+
+Description:
+    Code for assignment 1.
+    Group is "Accenture Assemble"
+    Members:
+        B Crowe
+        G Garisch
+        J Troianello
+        C Stipcak
 """
 
 # Import packages
