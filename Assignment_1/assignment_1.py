@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 X = np.linspace(0, 2*np.pi, 360)
 
 # Create plots
-plt.cla()
+plt.cla()                               #Remove existing plots
 plt.plot(X, np.cos(X))                  #Plot for cosine
 plt.plot(X, np.sin(X))                  #Plot for sine
 plt.legend(('cosine', 'sine'))          #Add legend
