@@ -25,8 +25,10 @@ X = np.linspace(0, 2*np.pi, 360)
 plt.cla()                               #Remove existing plots
 plt.plot(X, np.cos(X))                  #Plot for cosine
 plt.plot(X, np.sin(X))                  #Plot for sine
-plt.legend(('cosine', 'sine'))          #Add legend
+plt.plot(X, np.tan(X))                  #BC: Added tan plot
+plt.legend(('cosine', 'sine', 'tangent'))   #Add legend #BC: modified legend
 plt.xlabel('Angle in Rad')              #Add x label
 plt.ylabel('Function Value')            #Add y label
 plt.title('Trigonometric Functions')    #Add title
+plt.ylim(-3, 3)                         #BC: set limits to maintain view of exisitng plots
 plt.show()                              #Show plot
